@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import headerbg from "../../public/header_bg.png";
 import styles from "./Hero.module.css"; // Assuming you're using CSS Modules
 
