@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
-import pfp from "../../public/Me_pfp.png";
 import Image from "next/image";
 /* eslint-disable react/no-unescaped-entities */
 
@@ -13,7 +12,9 @@ const AboutMe = () => {
             <Image
               className={`${styles.pfp}`}
               alt="card image"
-              src={pfp}
+              src="/Me_pfp.png"
+              width={200}
+              height={200}
               style={{ objectFit: "contain" }}
             ></Image>
             <div className="d-flex justify-content-center px-2">

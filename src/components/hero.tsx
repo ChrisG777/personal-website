@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import headerbg from "../../public/header_bg.png";
 import styles from "./Hero.module.css";
 /* eslint-disable react/no-unescaped-entities */
 
@@ -18,8 +17,10 @@ const Hero = () => {
     <div className="bg-image position-relative d-flex justify-content-center align-items-center">
       <Image
         alt="neon background"
-        src={headerbg}
+        src="/header_bg.png"
         sizes="100vw"
+        width={500}
+        height={500}
         style={{
           width: "100%",
           height: "auto",

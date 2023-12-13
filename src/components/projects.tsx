@@ -1,12 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Projects.module.css";
-import toneme from "../../public/Tone-Me.png";
-import personalweb from "../../public/Personal-website.png";
-import softblocker from "../../public/Softblocker.png";
-import estimathon from "../../public/Estimathon.png";
-import wordcount from "../../public/wordcount.png";
-import automail from "../../public/AutoMail.png";
 
 /* eslint-disable react/no-unescaped-entities */
 
@@ -19,14 +13,14 @@ const projects = () => {
           "Tone.me is a Mandarin Chinese pronunciation corrector. It accepts a Chinese voice recording, determines the tones for each word in the recording, and returns feedback on the correctness of the tones.",
         techstack: ["Next.js", "React.js", "Flask", "Hugging Face"],
         link: "https://github.com/tone-me/tone-me?tab=readme-ov-file",
-        image_src: toneme,
+        image_src: "/Tone-Me.png",
       },
       {
         title: "Personal website",
         description: "My personal website!",
         techstack: ["Next.js", "React.js", "Bootstrap"],
         link: "#",
-        image_src: personalweb,
+        image_src: "/Personal-website.png",
       },
     ],
     [
@@ -36,7 +30,7 @@ const projects = () => {
           "A productivity chrome extension. You choose a list of websites to mark as unproductive. Then, whenever you go to an unproductive website, the extension will start a timer - once it's up, the page will freeze for an adjustible period of time. After the countdown is over, the normal tab resumes, and the timer is started again.\n\n100 installs on Chrome web store.",
         techstack: ["Javascript", "HTML", "CSS"],
         link: "https://chromewebstore.google.com/detail/softblocker/gkcaacfdeihmjefmgedholhlihbljjfo",
-        image_src: softblocker,
+        image_src: "/Softblocker.png",
       },
       {
         title: "Estimathon",
@@ -44,7 +38,7 @@ const projects = () => {
           "The Estimathon is a competition created by Jane Street, where competitors estimate an interval in which they believe the answer lies. I made an open source version of their live-updating leaderboard for hosting Estimathon competitions.\n\nUsed by MSJ Math Club for Mission Math Tournament and Summer Mission Math Tournament (200 competitors), as well as MIT Undergraduate Math Association",
         techstack: ["Google Spreadsheets", "Apps Script"],
         link: "https://github.com/ChrisG777/Estimathon",
-        image_src: estimathon,
+        image_src: "/Estimathon.png",
       },
     ],
     [
@@ -54,7 +48,7 @@ const projects = () => {
           "A tool for Google Docs. With a single click, it generates cumulative line-by-line word counts in the margins. Used for and shared with Mr. Bellotti's APUSH class (which required the word counts).",
         techstack: ["Google Docs", "Apps Script"],
         link: "https://github.com/ChrisG777/line-word-counts",
-        image_src: wordcount,
+        image_src: "/wordcount.png",
       },
       {
         title: "AutoMail",
@@ -62,7 +56,7 @@ const projects = () => {
           "AutoMail is a scripted Google Form template where every time someone fills out the Google Form, it adds their information to a Google Contacts group.",
         techstack: ["Google Forms", "Google Spreadsheets", "Apps Script"],
         link: "https://github.com/ChrisG777/Mailing-List",
-        image_src: automail,
+        image_src: "/AutoMail.png",
       },
     ],
   ];
@@ -89,6 +83,8 @@ const projects = () => {
                         className="card-img-top"
                         alt="card image"
                         src={colData["image_src"]}
+                        width={500}
+                        height={500}
                         style={{ height: "25vw", objectFit: "contain" }}
                       ></Image>
                     </div>
