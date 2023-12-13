@@ -12,3 +12,18 @@
   .fadeIn {
     animation: fadeInFromAbove 1.5s ease-out forwards;
   }
+
+  @keyframes fadeInImage {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeInImage {
+    animation: fadeInImage 1.5s ease-out forwards;
+  }
+
+  

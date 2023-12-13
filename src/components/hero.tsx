@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import headerbg from "../../public/header_bg.png";
-import styles from "./Hero.module.css"; // Assuming you're using CSS Modules
+import styles from "./Hero.module.css";
 
 const hero = () => {
   const [load, setLoad] = useState(false);
@@ -18,8 +18,13 @@ const hero = () => {
       <Image
         alt="neon background"
         src={headerbg}
-        layout="responsive"
-        objectFit="contain"
+        sizes="100vw"
+        style={{
+          width: "100%",
+          height: "auto",
+          objectFit: "contain",
+        }}
+        className={`${styles.fadeInImage}`}
       ></Image>
       <div className={`text-center position-absolute ${styles.fadeIn}`}>
         <p className="display-2 text-light" id="header-text">

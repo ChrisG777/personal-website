@@ -1,0 +1,22 @@
+.projectscard {
+    transition: all 0.3s;
+    background-color: #091d31;
+    color: white;
+    border: solid transparent;
+    border-radius: 15px;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    overflow: hidden;
+    position: relative;
+    border-image: linear-gradient(to right, #0048B9, #8800C7) 1 stretch;
+    box-shadow: 10px 10px 10px #09151f; 
+
+}
+
+.projectscard:hover { 
+    transform: scale(1.1);
+    z-index: 1000; /* Ensure the card is above other elements when scaled */
+    
+}
