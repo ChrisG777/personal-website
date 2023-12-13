@@ -8,6 +8,8 @@ import estimathon from "../../public/Estimathon.png";
 import wordcount from "../../public/wordcount.png";
 import automail from "../../public/AutoMail.png";
 
+/* eslint-disable react/no-unescaped-entities */
+
 const projects = () => {
   const data = [
     [

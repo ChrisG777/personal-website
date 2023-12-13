@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 
 function BootstrapClient() {
   useEffect(() => {

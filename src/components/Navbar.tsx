@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+/* eslint-disable react/no-unescaped-entities */
 
 const Navbar = () => {
   return (

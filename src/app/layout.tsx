@@ -4,6 +4,7 @@ import BootstrapClient from "@/components/BootstrapClient.js";
 import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons CSS
 import "./globals.css";
 import { Inter } from "next/font/google";
+/* eslint-disable react/no-unescaped-entities */
 
 const inter = Inter({ subsets: ["latin"] });
 

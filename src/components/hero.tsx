@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import headerbg from "../../public/header_bg.png";
 import styles from "./Hero.module.css";
+/* eslint-disable react/no-unescaped-entities */
 
 const hero = () => {
   const [load, setLoad] = useState(false);

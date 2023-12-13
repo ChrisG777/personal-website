@@ -4,6 +4,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import AboutMe from "@/components/AboutMe";
 
+/* eslint-disable react/no-unescaped-entities */
+
 export default function Home() {
   return (
     <main>

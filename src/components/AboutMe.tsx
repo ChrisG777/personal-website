@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AboutMe.module.css";
 import pfp from "../../public/Me_pfp.png";
 import Image from "next/image";
+/* eslint-disable react/no-unescaped-entities */
 
 const AboutMe = () => {
   return (
