@@ -20,3 +20,10 @@
     z-index: 1000; /* Ensure the card is above other elements when scaled */
     
 }
+
+.icon {
+    background-color: #1894b0;
+    border: 0px solid;
+    border-color: #A9A9A9;
+    border-radius: 20px;
+}
