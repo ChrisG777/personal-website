@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import BootstrapClient from "@/components/BootstrapClient.js";
+import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons CSS
 import "./globals.css";
 import { Inter } from "next/font/google";
 

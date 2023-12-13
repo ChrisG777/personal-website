@@ -65,9 +65,11 @@ const projects = () => {
     ],
   ];
   return (
-    <>
-      <div className="m-5" id="Projects">
-        <h1 style={{ color: "#ec8af9" }}>Projects</h1>
+    <div className={`my-5 ${styles.overall}`} id="Projects">
+      <div className="m-5">
+        <h1 className="pt-5" style={{ color: "#ec8af9" }}>
+          Projects
+        </h1>
         <p className="h5 text-white mt-4">
           Click on any project to see more about it!
         </p>
@@ -79,7 +81,7 @@ const projects = () => {
               <div className="col-md-6 my-4" key={id2}>
                 <div className={`card ${styles.projectscard}`}>
                   <div className="card-body">
-                    <h4 className="card-title"> {colData["title"]} </h4>
+                    <h4 className="card-title my-3"> {colData["title"]} </h4>
                     <div className="embed-responsive embed-responsive-16by9 mb-4">
                       <Image
                         className="card-img-top"
@@ -115,7 +117,7 @@ const projects = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
