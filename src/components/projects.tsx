@@ -91,11 +91,12 @@ const projects = () => {
                     <p className="card-text" style={{ color: "#BEBEBE" }}>
                       {colData["description"]}
                     </p>
-                    <div className="card-footer d-flex justify-content-center">
+                    <div className="card-footer d-flex flex-wrap justify-content-center">
                       {colData["techstack"].map((techItem, id3) => (
                         <span
                           key={id3}
-                          className={`px-2 me-2 d-inline-flex justify-content-center ${styles.icon}`}
+                          className={`px-2 me-2 mb-2 d-inline-flex justify-content-center ${styles.icon}`}
+                          style={{ flex: "0 0 auto" }}
                         >
                           <p className="m-0" style={{ color: "#E5E4E2" }}>
                             {techItem}
