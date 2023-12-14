@@ -13,10 +13,6 @@ export default function Home() {
       <Hero></Hero>
       <AboutMe></AboutMe>
       <Projects></Projects>
-
-      <div className="my-5">
-        <h2>Some stuff below</h2>
-      </div>
     </main>
   );
 }

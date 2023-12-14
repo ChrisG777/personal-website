@@ -19,7 +19,7 @@ const projects = () => {
         title: "Personal website",
         description: "My personal website!",
         techstack: ["Next.js", "React.js", "Bootstrap"],
-        link: "#",
+        link: "https://github.com/ChrisG777/personal-website",
         image_src: "/Personal-website.png",
       },
     ],
