@@ -27,6 +27,12 @@ const AboutMe = () => {
               <a href="https://www.linkedin.com/in/chris-ge-1274601b0/">
                 <i className={`bi bi-linkedin ${styles.icon}`}></i>
               </a>
+              <a href="https://www.instagram.com/chrisge05/">
+                <i className={`bi bi-instagram ${styles.icon}`}></i>
+              </a>
+              <a href="mailto:cge7@mit.edu">
+                <i className={`bi bi-envelope ${styles.icon}`}></i>
+              </a>
             </div>
           </div>
           <div className="col-md-8" style={{ color: "#B8B8B8" }}>
@@ -59,7 +65,7 @@ const AboutMe = () => {
             </p>
             <a
               className="btn btn-outline-primary"
-              href="Resume.pdf"
+              href="Chris_Ge_Resume.pdf"
               download="Chris_Ge_Resume.pdf"
             >
               Download CV
