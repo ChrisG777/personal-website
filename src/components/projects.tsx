@@ -83,8 +83,8 @@ const projects = () => {
                         className="card-img-top"
                         alt="card image"
                         src={colData["image_src"]}
-                        width={500}
-                        height={500}
+                        width={300}
+                        height={300}
                         style={{ height: "25vw", objectFit: "contain" }}
                       ></Image>
                     </div>
