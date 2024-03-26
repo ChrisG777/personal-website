@@ -30,8 +30,8 @@ const Timeline = () => {
       <h2 className="text-center mb-5" style={{ color: "#6c5ce7" }}>
         My Timeline
       </h2>
-      <div className="row justify-content-start position-relative">
-        <div className={`col-md-10 ${styles.timelineContainer}`}>
+      <div className="row justify-content-center position-relative">
+        <div className={`col-sm-11 col-md-10 col-lg-10`}>
           <div className={`${styles.timeline}`}>
             <div className={`${styles.timelineLine}`}></div>
             {timelineData.map((item, index) => (
@@ -43,17 +43,22 @@ const Timeline = () => {
                       alt={`${item.title} Logo`}
                       width={100}
                       height={100}
+                      layout="responsive" // This ensures that the image scales with its container
                       style={{ borderRadius: "50%" }}
                     />
                   </Link>
                 </div>
-                <div className={`${styles.timelineContent}`}>
-                  <div className={`${styles.textContainer}`}>
-                    <h3 style={{ color: "#6c5ce7" }}>{item.title}</h3>
+                <div className={`card ${styles.timelineContent}`}>
+                  <div className={`card-body ${styles.textContainer}`}>
+                    <h3 className="card-title" style={{ color: "#6c5ce7" }}>
+                      {item.title}
+                    </h3>
                     <h4 style={{ color: "#d3d3d3" }} className="mb-4">
                       {item.positionTitle}
                     </h4>
-                    <p style={{ color: "#d1d1d1" }}>{item.description}</p>
+                    <p className="card-text" style={{ color: "#d1d1d1" }}>
+                      {item.description}
+                    </p>
                     <p
                       className={`${styles.timelineDate}`}
                       style={{ color: "#6c5ce7" }}

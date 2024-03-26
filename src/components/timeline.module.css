@@ -1,7 +1,4 @@
-.timelineContainer {
-    margin-left: 80px;
-  }
-  
+
   .timeline {
     position: relative;
     padding-left: 120px;
@@ -56,14 +53,4 @@
 
   .timelineIcon:hover {
     transform: translateY(-50%) scale(1.05);
-  }
-
-  @media (max-width: 767px) { /* Adjust the max-width based on your design's mobile breakpoint */
-    .timeline {
-      padding-left: 80px; /* 40 pixels less than original padding */
-    }
-  
-    .timelineLine {
-      left: 10px; /* 40 pixels less than original position */
-    }
   }
