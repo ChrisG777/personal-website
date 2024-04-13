@@ -16,14 +16,22 @@ const projects = () => {
         image_src: "/Tone-Me.png",
       },
       {
+        title: "HOT Maps",
+        description:
+          "A Tutorial Game and Assessment built for Humanitarian OpenStreetMaps. It's an interactive test of users' mapping ability directly integrated with OpenStreetMap's iD editing platform, with a novel map evaluation metric and new gameified stages.",
+        techstack: ["Javascript", "d3.js", "Node.js", "HTML", "CSS"],
+        link: "https://github.com/ChrisG777/OSM_game",
+        image_src: "/HOT_Maps.png",
+      },
+    ],
+    [
+      {
         title: "Personal website",
         description: "My personal website!",
         techstack: ["Next.js", "React.js", "Bootstrap"],
         link: "https://github.com/ChrisG777/personal-website",
         image_src: "/Personal-website.png",
       },
-    ],
-    [
       {
         title: "Softblocker",
         description:
@@ -32,6 +40,8 @@ const projects = () => {
         link: "https://chromewebstore.google.com/detail/softblocker/gkcaacfdeihmjefmgedholhlihbljjfo",
         image_src: "/Softblocker.png",
       },
+    ],
+    [
       {
         title: "Estimathon",
         description:
@@ -40,8 +50,6 @@ const projects = () => {
         link: "https://github.com/ChrisG777/Estimathon",
         image_src: "/Estimathon.png",
       },
-    ],
-    [
       {
         title: "AutoCounts",
         description:
@@ -50,6 +58,8 @@ const projects = () => {
         link: "https://github.com/ChrisG777/line-word-counts",
         image_src: "/wordcount.png",
       },
+    ],
+    [
       {
         title: "AutoMail",
         description:
