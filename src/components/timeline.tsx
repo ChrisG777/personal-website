@@ -27,7 +27,7 @@ const Timeline = () => {
 
   return (
     <div className="container py-5">
-      <h2 className="text-center mb-5" style={{ color: "#6c5ce7" }}>
+      <h2 className="text-center mb-5" style={{ color: "#ec8af9" }}>
         My Timeline
       </h2>
       <div className="row justify-content-center position-relative">
@@ -50,7 +50,7 @@ const Timeline = () => {
                 </div>
                 <div className={`card ${styles.timelineContent}`}>
                   <div className={`card-body ${styles.textContainer}`}>
-                    <h3 className="card-title" style={{ color: "#6c5ce7" }}>
+                    <h3 className="card-title" style={{ color: "#fd8af9" }}>
                       {item.title}
                     </h3>
                     <h4 style={{ color: "#d3d3d3" }} className="mb-4">
@@ -61,7 +61,7 @@ const Timeline = () => {
                     </p>
                     <p
                       className={`${styles.timelineDate}`}
-                      style={{ color: "#6c5ce7" }}
+                      style={{ color: "#fd8af9" }}
                     >
                       {item.date}
                     </p>
