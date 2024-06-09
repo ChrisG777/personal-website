@@ -41,8 +41,15 @@ const AboutMe = () => {
             <p className="mt-4">
               I'm an undergraduate at MIT pursuing a double major in Computer
               Science and Mathematics. My interests include artificial
-              intelligence, software development, and number theory. Recently,
-              I've worked with the{" "}
+              intelligence, software development, and number theory. For summer
+              2024, I'm a software engineering intern at{" "}
+              <a
+                href="https://www.intersystems.com/"
+                className={`${styles.link}`}
+              >
+                InterSystems.
+              </a>{" "}
+              I've also recently worked with the{" "}
               <a
                 href="https://signal-kinetics.media.mit.edu/"
                 className={`${styles.link}`}
@@ -50,14 +57,7 @@ const AboutMe = () => {
                 MIT Signal Kinetics Group
               </a>{" "}
               on extending underwater backscattering localization to shallow
-              water on moving sources, and I'm going to intern at{" "}
-              <a
-                href="https://www.intersystems.com/"
-                className={`${styles.link}`}
-              >
-                InterSystems
-              </a>{" "}
-              in Summer 2024.
+              water on moving sources.
             </p>
 
             <p>

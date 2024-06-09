@@ -8,10 +8,11 @@ const Timeline = () => {
     {
       logo: "/Intersystems.png",
       title: "InterSystems",
-      positionTitle: "Software Engineering Intern",
-      description:
+      positionTitle:
         "Software Engineering Intern on the Application Services Team.",
-      date: "June 2024 - (not started)",
+      description:
+        "I'm extending a unit test coverage measuring tool to work with embedded Python, instead of just ObjectScript (InterSystems' proprietary language).",
+      date: "May 2024 - Present",
       href: "https://www.intersystems.com/",
     },
     {
