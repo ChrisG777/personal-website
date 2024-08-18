@@ -12,7 +12,7 @@ const AboutMe = () => {
             <Image
               className={`${styles.pfp}`}
               alt="card image"
-              src="/Me_pfp.png"
+              src="/Newer_pfp.jpg"
               width={200}
               height={200}
               style={{ objectFit: "contain" }}
@@ -35,29 +35,20 @@ const AboutMe = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-8" style={{ color: "#B8B8B8" }}>
+          <div className="col-md-8 my-4" style={{ color: "#B8B8B8" }}>
             <h2>Chris Ge</h2>
             <p className="h6">MIT '27, Software Developer, CS Researcher</p>
             <p className="mt-4">
-              I'm an undergraduate at MIT pursuing a double major in Computer
-              Science and Mathematics. My interests include artificial
-              intelligence, software development, and number theory. For summer
-              2024, I'm a software engineering intern at{" "}
+              I'm a sophomore at MIT pursuing a double major in Computer Science
+              and Mathematics. My interests include machine learning (NLP) and
+              software development (backend). Recently in summer 2024, I was a
+              software engineering intern at{" "}
               <a
                 href="https://www.intersystems.com/"
                 className={`${styles.link}`}
               >
                 InterSystems.
               </a>{" "}
-              I've also recently worked with the{" "}
-              <a
-                href="https://signal-kinetics.media.mit.edu/"
-                className={`${styles.link}`}
-              >
-                MIT Signal Kinetics Group
-              </a>{" "}
-              on extending underwater backscattering localization to shallow
-              water on moving sources.
             </p>
 
             <p>
@@ -67,7 +58,7 @@ const AboutMe = () => {
               <span style={{ color: "#FFD700" }}>Gold</span>, USNCO Honors
             </p>
             <p>
-              <strong>Skills:</strong> C++, Python, React.js, Flask, MongoDB,
+              <strong>Skills:</strong> C++, Python, Angular, React, Flask, SQL,
               Next.js, HTML, CSS, JavaScript, MATLAB
             </p>
             <a

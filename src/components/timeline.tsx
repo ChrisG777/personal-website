@@ -8,28 +8,49 @@ const Timeline = () => {
     {
       logo: "/Intersystems.png",
       title: "InterSystems",
-      positionTitle:
-        "Software Engineering Intern on the Application Services Team.",
-      description:
-        "I'm extending a unit test coverage measuring tool to work with embedded Python, instead of just ObjectScript (InterSystems' proprietary language).",
-      date: "May 2024 - Present",
+      positionTitle: "Software Engineering Intern on the App Services Team.",
+      description: (
+        <>
+          I extended a unit test coverage measuring tool to track embedded
+          Python code and built a new Angular UI for running tests and viewing
+          code coverage.
+          <br />
+          <br />I also wrote an article on the InterSystems Developer Community
+          about my (open source) work at{" "}
+          <a
+            href="https://community.intersystems.com/post/testcoverage-embedded-python-and-ui"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#ADD8E6" }} // Lighter blue color
+          >
+            https://community.intersystems.com/post/testcoverage-embedded-python-and-ui
+          </a>
+          . A recording of my intern presentation is coming soon!
+        </>
+      ),
+      date: "May 2024 - August 2024",
       href: "https://www.intersystems.com/",
     },
     {
       logo: "/MediaLab.png",
       title: "MIT Media Lab",
       positionTitle: "Undergraduate Researcher",
-      description:
-        "I helped create a battery-free 3D underwater localization system (3D-BLUE) for real-time tracking of mobile targets with the Signal Kinetics Group at the MIT Media Lab.",
+      description: (
+        <>
+          I helped create a battery-free 3D underwater localization system
+          (3D-BLUE) for real-time tracking of mobile targets with the Signal
+          Kinetics Group at the MIT Media Lab.
+        </>
+      ),
       date: "December 2023 - March 2024",
       href: "https://signal-kinetics.media.mit.edu/",
     },
   ];
 
   return (
-    <div className="container py-5">
+    <div id="Timeline" className="container py-5">
       <h2 className="text-center mb-5" style={{ color: "#ec8af9" }}>
-        My Timeline
+        My Experience
       </h2>
       <div className="row justify-content-center position-relative">
         <div className={`col-sm-11 col-md-10 col-lg-10`}>

@@ -74,7 +74,7 @@ const projects = () => {
     <div className={`my-5 ${styles.overall}`} id="Projects">
       <div className="m-5">
         <h1 className="pt-5" style={{ color: "#ec8af9" }}>
-          Projects
+          Personal Projects
         </h1>
         <p className="h5 text-white mt-4">
           Click on any project to see more about it!
