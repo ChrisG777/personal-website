@@ -25,7 +25,15 @@ const Timeline = () => {
           >
             https://community.intersystems.com/post/testcoverage-embedded-python-and-ui
           </a>
-          . A recording of my intern presentation is coming soon!
+          . A recording of my intern presentation can be found{" "}
+          <a
+            href="https://www.dropbox.com/scl/fi/vduo4637ie3r144i1rcpt/Chris-Ge-InterSystems-Final-Presentation.mp4?rlkey=g14vr75a9ttva94q9z0msu3cf&st=f55d30te&dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#ADD8E6" }} // Lighter blue color
+          >
+            here
+          </a>
         </>
       ),
       date: "May 2024 - August 2024",
