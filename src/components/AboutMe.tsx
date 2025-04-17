@@ -40,15 +40,7 @@ const AboutMe = () => {
             <p className="h6">MIT '27, Software Developer, CS Researcher</p>
             <p className="mt-4">
               I'm a sophomore at MIT pursuing a double major in Computer Science
-              and Mathematics. My interests include machine learning (NLP) and
-              software development (backend). Recently in summer 2024, I was a
-              software engineering intern at{" "}
-              <a
-                href="https://www.intersystems.com/"
-                className={`${styles.link}`}
-              >
-                InterSystems.
-              </a>{" "}
+              and Mathematics. On the research side, I'm interested in algorithmic statistics and machine learning; as a developer, I enjoy backend software development. This summer 2025, I'll be a software engineering intern on the Matlab Coder Language team at Mathworks. 
             </p>
 
             <p>
@@ -61,13 +53,13 @@ const AboutMe = () => {
               <strong>Skills:</strong> C++, Python, Angular, React, Flask, SQL,
               Next.js, HTML, CSS, JavaScript, MATLAB
             </p>
-            <a
+            {/* <a
               className="btn btn-outline-primary"
               href="Chris_Ge_Resume.pdf"
               download="Chris_Ge_Resume.pdf"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
